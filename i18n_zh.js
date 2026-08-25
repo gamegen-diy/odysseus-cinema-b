@@ -1,7 +1,7 @@
-// ODYSSEY CINEMA — Traditional Chinese text layer (voice stays English; subtitles/UI switch)
+// MOODYSSEUS CINEMA — Traditional Chinese text layer (voice stays English; subtitles/UI switch) (Character Variant B)
 // Structure mirrors scenes.js per scene id; only text fields are overridden. fx/goto/delta stay in scenes.js.
 const ZH = {
-S01:{title:'奧德賽', sub:'我讀過這本書', tagline:'一場可玩的史詩', btn:'▶ 開始'},
+S01:{title:'牛德賽', sub:'我讀過這本書', tagline:'一場可玩的史詩', btn:'▶ 開始'},
 S02:{phase:'序幕', objective:'故事開始',
  vo:'大海將獵殺這個男人十年。|一位神將得知他的名字——因為他忍不住喊了出來。'},
 S03:{phase:'序幕', objective:'故事開始',
@@ -10,7 +10,7 @@ S04:{phase:'特洛伊——第十年', objective:'醒來',
  vo:'頭痛欲裂。松脂味,舊青銅味。一場你從沒打過的十年戰爭。|而磨亮的盾牌裡——是一張不屬於你的臉。'},
 S05:{phase:'特洛伊——第十年', objective:'醒來',
  caption:'這本書我讀過。從頭到尾。兩遍。',
- vo:'奧德修斯。攻城者。史上最倒楣的水手。|他的故事你讀過。從頭到尾。兩遍。|今晚,你就穿在這個故事裡。',
+ vo:'牛德修斯。攻城者。史上最倒楣的水手。|他的故事你讀過。從頭到尾。兩遍。|今晚,你就穿在這個故事裡。',
  spoiler:'🔮 書中劇透:木馬會成功。特洛伊天亮前燒光。回家的路,才是問題。'},
 S06:{phase:'戰爭議會', objective:'在諸王議會活下來',
  vo:'萬王之王要你保證那頭木頭怪物能成。|你身邊站著兩位副官:笑得太快的波利特斯。|還有你的小舅子歐律羅科斯——他這輩子沒對你笑過。',
@@ -78,7 +78,7 @@ S14:{phase:'名字', objective:'全書最重要的選擇',
  intel:'👁 繼續當「沒有人」,波塞冬就永遠不知道該詛咒誰。',
  options:[
   {label:'沉默駛離。讓「沒有人」領走功勞。永遠。', tone:'無名者'},
-  {label:'「告訴他們,是奧德修斯弄瞎了你!」——照書上寫的來。', tone:'榮耀'}]},
+  {label:'「告訴他們,是牛德修斯弄瞎了你!」——照書上寫的來。', tone:'榮耀'}]},
 S15a:{phase:'脫稿', objective:'史詩的引擎——被拔掉了',
  caption:'沒有人,正要啟航回家。',
  vo:'你把名字咬碎吞下。味道像一支硬吞下去的凱旋號角。|海面之下,一位神等著一個永遠不會來的名字。|天上某處,一部史詩安靜地熄了火。前方的海,平靜——而且完全沒被寫過。'},
@@ -106,7 +106,7 @@ const UI = {
   pathBook:'路線:照書走', path:'路線:',
   menu:'選單', voice:'🔊 語音(英文)', music:'🎵 音樂', auto:'▶ 自動播放', lang:'🌐 語言:繁體中文',
   restart:'↻ 重新開始旅程', close:'✕ 關閉',
-  credit:'奧德賽——我讀過這本書 · 進度在每個場景自動保存'}
+  credit:'牛德賽——我讀過這本書 · 進度在每個場景自動保存'}
 };
 const FLAGZH = {PolitesTrust:'波利特斯之信', AjaxStopped:'攔下埃阿斯', EarlyExit:'提前離場', Nameless:'無名者'};
 if (typeof module!=='undefined') module.exports = {ZH, UI, FLAGZH};

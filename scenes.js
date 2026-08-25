@@ -1,10 +1,10 @@
-// ODYSSEUS: I Have Read This Book — CINEMA MVP scene data
+// MOODYSSEUS: I Have Read This Book — CINEMA MVP scene data (Character Variant B)
 // Media slot contract: media:{img:'assets/img/<id>.jpg'} OR media:{video:'assets/vid/<id>.mp4'}
 // — swapping an image for a video later = change this one field, engine handles both.
 // vo: narration text (also the subtitle lines, split on |). prompt: image-gen prompt (2:3 vertical, photoreal film still).
 const SCENES = {
 
-S01:{type:'title', title:'ODYSSEUS', sub:'I HAVE READ THIS BOOK', tagline:'A playable epic', btn:'▶ Begin',
+S01:{type:'title', title:'MOODYSSEUS', sub:'I HAVE READ THIS BOOK', tagline:'A playable epic', btn:'▶ Begin',
  media:{img:'assets/img/s01.jpg'},
  prompt:'Epic film still, vertical 2:3: a lone ancient Greek war galley silhouetted on a wine-dark sea at dusk, massive storm clouds, tiny golden lantern light, cinematic, moody, photorealistic, no text',
  goto:'S02'},
@@ -30,7 +30,7 @@ S04:{type:'beat', phase:'TROY — YEAR TEN', objective:'Wake up',
 S05:{type:'beat', phase:'TROY — YEAR TEN', objective:'Wake up',
  media:{img:'assets/img/s05.jpg', video:'assets/vid/s05.mp4'}, kb:'kb-in',
  caption:'I have read this book. Cover to cover. Twice.',
- vo:'Odysseus. Sacker of cities. The unluckiest sailor who will ever live.|You have read his story. Cover to cover. Twice.|Tonight, you are wearing it.',
+ vo:'Moodysseus. Sacker of cities. The unluckiest sailor who will ever live.|You have read his story. Cover to cover. Twice.|Tonight, you are wearing it.',
  spoiler:'🔮 SPOILERS FROM THE BOOK: The horse works. Troy burns by dawn. The homecoming is the problem.',
  prompt:'Epic film still, vertical 2:3: bearded Greek warrior reflected in a polished bronze shield he holds up, warm lamplight, sharp intelligent eyes, photorealistic, intimate cinematic portrait, no text',
  goto:'S06'},
@@ -143,7 +143,7 @@ S14:{type:'choice', phase:'THE NAME', objective:'The most important choice in th
  intel:'👁 Stay Nobody, and Poseidon never learns who to curse.',
  options:[
   {label:'Sail away silent. Let Nobody take the credit. Forever.', tone:'NAMELESS', fx:{wisdom:10}, flag:'Nameless', goto:'S15a'},
-  {label:'“TELL THEM ODYSSEUS BLINDED YOU!” — as written.', tone:'GLORIOUS', fx:{glory:10}, goto:'S15b'}]},
+  {label:'“TELL THEM MOODYSSEUS BLINDED YOU!” — as written.', tone:'GLORIOUS', fx:{glory:10}, goto:'S15b'}]},
 
 S15a:{type:'beat', phase:'OFF SCRIPT', objective:'The engine of the epic — unplugged',
  media:{img:'assets/img/s15a.jpg', video:'assets/vid/s15a.mp4'}, kb:'kb-out',
